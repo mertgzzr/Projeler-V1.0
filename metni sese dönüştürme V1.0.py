@@ -4,11 +4,11 @@ from tkinter import *
 
 root=Tk()
 root.geometry('400x200')
-root.title("Google's Speech Application")
-lab1=Label(root,text='Text To Speech Convertor',bg='powder blue',fg='black',font=('arial 16 bold')).pack()
-root.config(background='powder blue')
+root.title("Metinden Sese V1.0")
+lab1=Label(root,text='Metni sese çevirme ',bg='powder blue',fg='black',font=('arial 16 bold')).pack()
+root.config(background=' blue')
 
-lab2=Label(root,text='Enter text',font=('arial 16'),bg='powder blue',fg='black').pack()
+lab2=Label(root,text='Metni Girin',font=('arial 16'),bg='powder blue',fg='black').pack()
 mytext=StringVar()
 
 
@@ -27,9 +27,9 @@ def play():
 
 ent1=Entry(root,tex=mytext,font=('arial 13')).pack()
 
-but1=Button(root,text='Convert',width=20,bg='brown',fg='white',command=fetch).place(x=125,y=100)
+but1=Button(root,text='Dönüştür',width=20,bg='brown',fg='white',command=fetch).place(x=125,y=100)
 
-but2=Button(root,text='Play file',width=20,bg='brown',fg='white',command=play).place(x=125,y=140)
+but2=Button(root,text='Sesi Oynat',width=20,bg='brown',fg='white',command=play).place(x=125,y=140)
 
 root.mainloop()
 
