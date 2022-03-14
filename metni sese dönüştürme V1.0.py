@@ -6,7 +6,7 @@ root=Tk()
 root.geometry('400x200')
 root.title("Metinden Sese V1.0")
 lab1=Label(root,text='Metni sese çevirme ',bg='powder blue',fg='black',font=('arial 16 bold')).pack()
-root.config(background=' blue')
+root.config(background='powder blue')
 
 lab2=Label(root,text='Metni Girin',font=('arial 16'),bg='powder blue',fg='black').pack()
 mytext=StringVar()
